@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.ComponentModel.Composition.Initialization</name>
+    </assembly>
+    <members>
+        <member name="T:System.ComponentModel.Composition.Initialization.Strings">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:System.ComponentModel.Composition.Initialization.Strings.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:System.ComponentModel.Composition.Initialization.Strings.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+        <member name="P:System.ComponentModel.Composition.Initialization.Strings.ArgumentException_EmptyString">
+            <summary>
+              Recherche une chaîne localisée semblable à &apos;{0}&apos; cannot be an empty string (&quot;&quot;)..
+            </summary>
+        </member>
+        <member name="P:System.ComponentModel.Composition.Initialization.Strings.ArgumentException_TypeHasExports">
+            <summary>
+              Recherche une chaîne localisée semblable à Cannot call SatisfyImports on a object of type &apos;{0}&apos; because it is marked with one or more ExportAttributes..
+            </summary>
+        </member>
+        <member name="P:System.ComponentModel.Composition.Initialization.Strings.InvalidOperationException_DeploymentCatalogInvalidStateChange">
+            <summary>
+              Recherche une chaîne localisée semblable à Catalog is trying to transition to an invalid state. Occurs when you call DownloadAsync more than once or CancelAsync is called at an incorrect time..
+            </summary>
+        </member>
+        <member name="P:System.ComponentModel.Composition.Initialization.Strings.InvalidOperationException_ErrorReadingXap">
+            <summary>
+              Recherche une chaîne localisée semblable à The package downloaded successfully but an error occurred while reading the contents of the package. See the inner exception for more details..
+            </summary>
+        </member>
+        <member name="P:System.ComponentModel.Composition.Initialization.Strings.InvalidOperationException_GlobalContainerAlreadyInitialized">
+            <summary>
+              Recherche une chaîne localisée semblable à The container has already been initialized either by another call to InitializeContainer or by someone causing the default container to be constructed. Ensure that InitializeContainer is one of the first things that happens in the application host to ensure that it is ready for the first composition..
+            </summary>
+        </member>
+    </members>
+</doc>

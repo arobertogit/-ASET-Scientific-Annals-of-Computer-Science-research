@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<head>
+    <title>Scientific Work</title>
+    <script type="text/javascript" src="@Url.Content("https://code.jquery.com/jquery-2.0.0.js")"></script>
+    @*<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://bibtex-js.googlecode.com/svn/trunk/src/bibtex_js.js"></script>*@
+</head>
+<body>
+    <h2>Index</h2>
+    <table>
+        <tr>
+            <th>@Html.ActionLink("GetAllPapers", "GetAllPapers", "Home")</th>
+        </tr>
+        <tr>
+            <td>
+                <table>
+
+                    <tr><td>Volumes</td></tr>
+                    @foreach (var title in TAIP.Models.Volumes.volms )
+                    {
+                        <tr>
+                            <td>@Html.ActionLink("http://www.info.uaic.ro" + title, "http://www.info.uaic.ro" + title)</td>
+                        </tr>
+                    }
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+<script type="text/javascript">
+
+</script>

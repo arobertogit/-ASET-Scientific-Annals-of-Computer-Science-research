@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "GetAllPapers";
+}
+
+<h2>GetAllPapers</h2>
+<table>
+    <tr>
+        <th>@Html.ActionLink("Download in CSV", "DownloadInCsv", "Home")</th>
+    </tr>
+    <tr>
+        <td>
+            <table>
+
+                <tr><td>Volumes</td></tr>
+                @foreach (var title in TAIP.Models.BibtexScs.bibteXs)
+                {
+                    <tr>
+                        <td>@Html.ActionLink(title,title)</td>
+                    </tr>
+                }
+            </table>
+        </td>
+    </tr>
+</table>
