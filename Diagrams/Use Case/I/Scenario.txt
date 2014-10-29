@@ -1,0 +1,6 @@
+(I)
+1)	The user wants to call an application method to show the most cited first three publications.
+2)	The application will verify the method parameters and whether they are correct is returning data as required with a “202” as status code.
+Extensions
+- in case of wrong parameters it will be returned a bad request “400” code
+- if the required dates are not found it will be return an error message.
