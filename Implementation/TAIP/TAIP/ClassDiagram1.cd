@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TAIP.Models.Design_Patterns.Subscribe_Observer_">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Design Patterns\Subscribe[Observer].cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TAIP.Models.Design_Patterns.Subscribe" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAACAAAAAAAAAAAAAAEAABAAAQAAgAAAAA=</HashCode>
+      <FileName>Models\Design Patterns\Subscribe[Observer].cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.117" />
+  </Class>
+  <Class Name="TAIP.Models.Design_Patterns.Observer" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Design Patterns\Subscribe[Observer].cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TAIP.Models.Design_Patterns.ReadJournal_Singleton_">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="TAIP.Models.Design_Patterns.ReadJournal_Singleton_.ReadJournal">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\Design Patterns\ReadJournal[Singleton].cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Design Patterns\ReadJournal[Singleton].cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TAIP.Models.Design_Patterns.ISubscribe">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAABAQAAAAAAAAAA=</HashCode>
+      <FileName>Models\Design Patterns\Subscribe[Observer].cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TAIP.Models.Design_Patterns.IObserver">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Design Patterns\Subscribe[Observer].cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
